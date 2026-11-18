@@ -1,0 +1,18 @@
+{
+  "name": "منصة حُلُول AI - المستشار الذكي لحل المشكلات",
+  "short_name": "حُلُول AI",
+  "description": "المستشار الذكي الشامل لحل المشاكل العائلية والمدرسية والتوظيفية والحكومية والدولية والعامة بالذكاء الاصطناعي",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#0b1120",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
