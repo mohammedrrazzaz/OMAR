@@ -330,7 +330,7 @@ document.addEventListener("DOMContentLoaded", () => {
       chatBox.innerHTML = "";
       appendChatBubble(
         "bot",
-        `<p>مرحباً بك في <strong>المستشار الذكي (حُلُول AI)</strong> 🤖</p>
+        `<p>مرحباً بك في تطبيق <strong>حلول المشاكل (المستشار الذكي AI)</strong> 🤖</p>
          <p>أنا مدرب على تحليل وحل المشكلات في <strong>6 قطاعات رئيسية</strong>: (العائلية، المدرسية، التوظيفية، الحكومية، الدولية، والعامة).</p>
          <p>اكتب مشكلتك بالتفصيل أو اضغط على زر المايكروفون 🎤 للتحدث صوتياً، أو اختر أحد الأمثلة السريعة بالأعلى وسأقوم بتشخيصها وبناء خطة الحل فوراً.</p>`
       );
@@ -1266,8 +1266,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (shareAppBtn) {
       shareAppBtn.addEventListener("click", async () => {
         const shareData = {
-          title: "منصة حُلُول AI | المستشار الذكي الشامل لحل المشكلات",
-          text: "جرّب منصة حُلُول AI لحل المشاكل العائلية والمدرسية والتوظيفية والحكومية والدولية والعامة بالذكاء الاصطناعي:",
+          title: "حلول المشاكل | التطبيق الذكي الشامل لحل المشكلات",
+          text: "جرّب تطبيق حلول المشاكل لحل المشاكل العائلية والمدرسية والتوظيفية والحكومية والدولية والعامة بالذكاء الاصطناعي:",
           url: window.location.href
         };
         if (navigator.share && window.location.protocol.startsWith("http")) {
@@ -1276,7 +1276,7 @@ document.addEventListener("DOMContentLoaded", () => {
           } catch (e) {}
         } else {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            showToast("🌍 تم نسخ رابط المنصة لمشاركته مع العالم!");
+            showToast("🌍 تم نسخ رابط تطبيق حلول المشاكل لمشاركته مع العالم!");
           });
         }
       });
